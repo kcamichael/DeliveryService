@@ -208,7 +208,7 @@ public class ProgramUI
             System.Console.WriteLine("Please enter a Customer ID:");
             deliveryForm.CustomerID = Console.ReadLine()!;
 
-        PressAnyKey();
+            PressAnyKey();
+        }
     }
-
 }
