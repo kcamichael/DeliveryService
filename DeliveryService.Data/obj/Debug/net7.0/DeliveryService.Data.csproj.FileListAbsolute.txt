@@ -1,0 +1,15 @@
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\bin\Debug\net7.0\DeliveryService.Data.exe
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\bin\Debug\net7.0\DeliveryService.Data.deps.json
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\bin\Debug\net7.0\DeliveryService.Data.runtimeconfig.json
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\bin\Debug\net7.0\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\bin\Debug\net7.0\DeliveryService.Data.pdb
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.csproj.AssemblyReference.cache
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.AssemblyInfoInputs.cache
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.AssemblyInfo.cs
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.csproj.CoreCompileInputs.cache
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\refint\DeliveryService.Data.dll
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.pdb
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\DeliveryService.Data.genruntimeconfig.cache
+C:\ElevenFiftyProjects\DeliveryService\DeliveryService.Data\obj\Debug\net7.0\ref\DeliveryService.Data.dll
