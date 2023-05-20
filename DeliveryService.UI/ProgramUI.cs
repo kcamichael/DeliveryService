@@ -175,6 +175,7 @@ public class ProgramUI
         PressAnyKey();
     }
 
+// Create Delivery
     private void CreateDelivery()
     {
         try
@@ -186,11 +187,26 @@ public class ProgramUI
             //create an empty form 
             Delivery deliveryForm = new Delivery();
 
-            System.Console.WriteLine("Please enter a First Name:");
-            deliveryForm.FirstName = Console.ReadLine()!;
+            System.Console.WriteLine("Please enter a Delivery ID:");
+            deliveryForm.DeliveryID = Console.ReadLine()!;
 
-            System.Console.WriteLine("Please enter a Last Name:");
-            deliveryForm.LastName = Console.ReadLine()!;
+            System.Console.WriteLine("Please enter an Order Date:");
+            deliveryForm.OrderDate = Console.ReadLine()!;
+
+            System.Console.WriteLine("Please enter a Delivery Date:");
+            deliveryForm.DeliveryDate = Console.ReadLine()!;
+
+            System.Console.WriteLine("Please enter an Order Status:");
+            deliveryForm.OrderStatus = Console.ReadLine()!;
+
+            System.Console.WriteLine("Please enter an Item Number:");
+            deliveryForm.DeliveryDate = Console.ReadLine()!;
+
+            System.Console.WriteLine("Please enter an Item Quantity:");
+            deliveryForm.ItemQuantity = Console.ReadLine()!;
+
+            System.Console.WriteLine("Please enter a Customer ID:");
+            deliveryForm.CustomerID = Console.ReadLine()!;
 
             System.Console.WriteLine("Does this Delivery have ? y/n");
 
