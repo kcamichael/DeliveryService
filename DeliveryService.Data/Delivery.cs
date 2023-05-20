@@ -1,6 +1,7 @@
 // POCOs
 public class Delivery
 {
+    public int DeliveryID { get; set; }
     public DateOnly OrderDate { get; set; }
     public DateOnly DeliveryDate { get; set; }
     public bool OrderStatus { get; set; }           //! string? bool w/ loops?
@@ -21,13 +22,14 @@ public class Delivery
     }
     Delivery delivery = new Delivery
     {
-        OrderDate = DateTime.Now,
-        DeliveryDate = DateTime.Now.AddDays(5),
-        Status = DeliveryStatus.Scheduled,
-        ItemNumber = 12345,
+        OrderDate = DateTime,
+        DeliveryDate = DateTime.Now.AddDays(5), ...Maybe?
+        OrderStatus = DeliveryStatus.Scheduled,
+        ItemNumber = 123,
         ItemQuantity = 2,
-        CustomerID = 9876
+        CustomerID = 0001
     };
+    Console.WriteLineNewStruct(.ToString());
 
-    Console.WriteLine(delivery.ToString());
+    
 }
