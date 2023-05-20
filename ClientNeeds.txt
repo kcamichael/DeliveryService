@@ -21,8 +21,6 @@ Each delivery will need (POCO):
     The item quantity                                                                                       (int)
     The customer ID (you can assume every customer has an account with a unique ID number of some kind)     (int)
 
-
-
 ______________________________________________________________________________________________________________________________________
 
 - Two POCOS: 
@@ -45,10 +43,7 @@ We also need to know whether or not they have access to the online learning tool
 - User Interface (Console Application)
 
 
-
 Clients will typically not give you all the info you need, so you may need to use your brain and peers to fill in the blanks!
-
-
 
 
 Teams need to contain their Team members (Developers) and their Team Name, and Team ID.
