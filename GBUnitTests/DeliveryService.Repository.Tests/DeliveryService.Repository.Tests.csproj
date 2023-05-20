@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\DeliveryService.Data\DeliveryService.Data.csproj" />
+    <ProjectReference Include="..\..\DeliveryService.Repository\DeliveryService.Repository.csproj" />
   </ItemGroup>
 
 </Project>
