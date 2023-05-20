@@ -4,7 +4,6 @@ public class DeliveryRepository
     private List<Delivery> _deliveryDb = new List<Delivery>();
     private int _count = 0;
 
-
     //C.R.U.D
 
     //Create
@@ -22,7 +21,7 @@ public class DeliveryRepository
             return true;
         }
     }
-    
+
     //Read All
     public List<Delivery> GetDeliveries()
     {
@@ -61,7 +60,6 @@ public class DeliveryRepository
         }
         return false;
     }
-
 
     //Delete
     public bool RemoveDelivery(int deliveryId)

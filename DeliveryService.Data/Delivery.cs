@@ -20,16 +20,16 @@ public class Delivery
                     "=============================\n";
         return str;
     }
-    Delivery delivery = new Delivery
-    {
-        OrderDate = DateTime,
-        DeliveryDate = DateTime.Now.AddDays(5), ...Maybe?
-        OrderStatus = DeliveryStatus.Scheduled,
-        ItemNumber = 123,
-        ItemQuantity = 2,
-        CustomerID = 0001
-    };
-    Console.WriteLineNewStruct(.ToString());
+    // Delivery delivery = new Delivery
+    // {
+    //     OrderDate = DateTime,
+    //     DeliveryDate = DateTime.Now.AddDays(5), //...Maybe?
+    //     OrderStatus = DeliveryStatus.Scheduled,
+    //     ItemNumber = 123,
+    //     ItemQuantity = 2,
+    //     CustomerID = 0001
+    // };
+    // Console.WriteLineNewStruct(.ToString());
 
     
 }
