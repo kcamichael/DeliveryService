@@ -1712,6 +1712,29 @@
         "build": {
           "build/netcoreapp3.1/xunit.runner.visualstudio.props": {}
         }
+      },
+      "DeliveryService.Data/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "compile": {
+          "bin/placeholder/DeliveryService.Data.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeliveryService.Data.dll": {}
+        }
+      },
+      "DeliveryService.Repository/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v7.0",
+        "dependencies": {
+          "DeliveryService.Data": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/DeliveryService.Repository.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/DeliveryService.Repository.dll": {}
+        }
       }
     }
   },
@@ -5506,10 +5529,22 @@
         "xunit.runner.visualstudio.2.4.5.nupkg.sha512",
         "xunit.runner.visualstudio.nuspec"
       ]
+    },
+    "DeliveryService.Data/1.0.0": {
+      "type": "project",
+      "path": "../../DeliveryService.Data/DeliveryService.Data.csproj",
+      "msbuildProject": "../../DeliveryService.Data/DeliveryService.Data.csproj"
+    },
+    "DeliveryService.Repository/1.0.0": {
+      "type": "project",
+      "path": "../../DeliveryService.Repository/DeliveryService.Repository.csproj",
+      "msbuildProject": "../../DeliveryService.Repository/DeliveryService.Repository.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net7.0": [
+      "DeliveryService.Data >= 1.0.0",
+      "DeliveryService.Repository >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.5.0",
       "coverlet.collector >= 3.2.0",
       "xunit >= 2.4.2",
@@ -5548,7 +5583,14 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\ElevenFiftyProjects\\DeliveryService\\DeliveryService.Data\\DeliveryService.Data.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\DeliveryService\\DeliveryService.Data\\DeliveryService.Data.csproj"
+            },
+            "C:\\ElevenFiftyProjects\\DeliveryService\\DeliveryService.Repository\\DeliveryService.Repository.csproj": {
+              "projectPath": "C:\\ElevenFiftyProjects\\DeliveryService\\DeliveryService.Repository\\DeliveryService.Repository.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
