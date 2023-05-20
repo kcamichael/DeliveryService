@@ -208,35 +208,7 @@ public class ProgramUI
             System.Console.WriteLine("Please enter a Customer ID:");
             deliveryForm.CustomerID = Console.ReadLine()!;
 
-            System.Console.WriteLine("Does this Delivery have ? y/n");
-
-            string userInput = Console.ReadLine()!.ToLower();
-
-            if (userInput == "y")
-            {
-                deliveryForm.Delivery = true;
-            }
-            else
-            {
-                deliveryForm.Delivery = false;
-            }
-
-            if (_deliveryRepo.AddDelivery(deliveryForm))
-            {
-                System.Console.WriteLine("SUCCESS!");
-            }
-            else
-            {
-                System.Console.WriteLine("FAIL!");
-            }
-        }
-        catch (Exception ex)
-        {
-            System.Console.WriteLine(ex.Message);
-        }
-
         PressAnyKey();
     }
-
 
 }
